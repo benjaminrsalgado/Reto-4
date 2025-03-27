@@ -12,13 +12,13 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Hello, Max")
-                .font(.largeTitle)
+                .font(.custom("Baskerville SemiBold", size: 20))
                 .foregroundColor(.blue)
                 .bold()
                 .multilineTextAlignment(.center)
             
             Text("Hello, \(name) bienvenido al curso SwiftUI")
-                .font(.title)
+                .font(.custom("Bookman Old Style Bold Italic", size: 40))
                 .foregroundColor(.gray)
                 .italic()
                 .padding()
